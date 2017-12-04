@@ -1,5 +1,10 @@
 import java.util.HashMap;
 
+/**
+ *  坑1：abs一个Int负数就overflow了，因为负的range比正数多1，所以要变成long来处理
+ *  坑2：要在abs之前转成long！！
+ */
+
 public class FractionToRecurringDecimal_166 {
 
     public String fractionToDecimal(int numerator, int denominator) {
