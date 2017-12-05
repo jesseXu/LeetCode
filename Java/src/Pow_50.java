@@ -6,6 +6,11 @@
  * 坑4：-1的特殊处理
  */
 
+/**
+ * 原来是可以用系统的pow的，还可以考虑其他解法：
+ *
+ */
+
 public class Pow_50 {
 
     public double myPow(double x, int n) {
