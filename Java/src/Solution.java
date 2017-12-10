@@ -5,8 +5,9 @@ public class Solution {
 //        char[][] a = {{'0','E','0','0'},{'E','0','W','E'},{'0','E','0','0'}};
 //        int r = s.maxKilledEnemies(a);
 
-        DecodeString_394 s = new DecodeString_394();
-        String r = s.decodeString("3[a2[c]]");
+        int[] array = {235,140,4};
+        UTF8Validation_393 s = new UTF8Validation_393();
+        boolean r = s.validUtf8(array);
         System.out.print(r);
     }
 
