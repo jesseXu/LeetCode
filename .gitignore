@@ -72,28 +72,29 @@ anaconda-mode/
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff:
-.idea/**/workspace.xml
-.idea/**/tasks.xml
-.idea/dictionaries
+Java/.idea/**/workspace.xml
+Java/.idea/**/tasks.xml
+Java/.idea/dictionaries
 
 # Sensitive or high-churn files:
-.idea/**/dataSources/
-.idea/**/dataSources.ids
-.idea/**/dataSources.xml
-.idea/**/dataSources.local.xml
-.idea/**/sqlDataSources.xml
-.idea/**/dynamic.xml
-.idea/**/uiDesigner.xml
+Java/.idea/**/dataSources/
+Java/.idea/**/dataSources.ids
+Java/.idea/**/dataSources.xml
+Java/.idea/**/dataSources.local.xml
+Java/.idea/**/sqlDataSources.xml
+Java/.idea/**/dynamic.xml
+Java/.idea/**/uiDesigner.xml
 
 # Gradle:
-.idea/**/gradle.xml
-.idea/**/libraries
+Java/.idea/**/gradle.xml
+Java/.idea/**/libraries
+
 
 # CMake
 cmake-build-debug/
 
 # Mongo Explorer plugin:
-.idea/**/mongoSettings.xml
+Java/.idea/**/mongoSettings.xml
 
 ## File-based project format:
 *.iws
@@ -104,13 +105,13 @@ cmake-build-debug/
 /out/
 
 # mpeltonen/sbt-idea plugin
-.idea_modules/
+Java/.idea_modules/
 
 # JIRA plugin
 atlassian-ide-plugin.xml
 
 # Cursive Clojure plugin
-.idea/replstate.xml
+Java/.idea/replstate.xml
 
 # Ruby plugin and RubyMine
 /.rakeTasks
